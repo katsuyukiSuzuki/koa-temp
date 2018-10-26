@@ -7,7 +7,7 @@ app.use(router.routes());
 
 exports.start = async () => {
   try {
-    await app.listen(3000);
+    await app.listen(5000);
     console.log(`listening on port 3000`);
   } catch (err) {
     console.log(err);

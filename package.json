@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "frontend": "cd frontend && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run frontend\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsuyukiSuzuki/koa-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsuyukiSuzuki/koa-temp/issues"
+  },
+  "homepage": "https://github.com/katsuyukiSuzuki/koa-temp#readme",
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
